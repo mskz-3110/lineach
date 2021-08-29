@@ -1,12 +1,12 @@
 {
-  "name": "strine",
+  "name": "lineach",
   "version": "0.0.1",
   "description": "Process strings line by line.",
-  "main": "strine.js",
+  "main": "lineach.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mskz-3110/strine.git"
+    "url": "git+https://github.com/mskz-3110/lineach.git"
   },
   "keywords": [
     "string",
@@ -15,7 +15,7 @@
   "author": "mskz-3110",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mskz-3110/strine/issues"
+    "url": "https://github.com/mskz-3110/lineach/issues"
   },
-  "homepage": "https://github.com/mskz-3110/strine#readme"
+  "homepage": "https://github.com/mskz-3110/lineach#readme"
 }

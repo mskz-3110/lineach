@@ -1,0 +1,1 @@
+var lineach = this;

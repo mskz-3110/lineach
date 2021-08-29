@@ -1,1 +1,1 @@
-# strine
+# lineach
