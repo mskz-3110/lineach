@@ -1,0 +1,21 @@
+{
+  "name": "strine",
+  "version": "0.0.1",
+  "description": "Process strings line by line.",
+  "main": "strine.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskz-3110/strine.git"
+  },
+  "keywords": [
+    "string",
+    "line"
+  ],
+  "author": "mskz-3110",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskz-3110/strine/issues"
+  },
+  "homepage": "https://github.com/mskz-3110/strine#readme"
+}
