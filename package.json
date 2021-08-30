@@ -3,19 +3,25 @@
   "version": "0.0.1",
   "description": "Process strings line by line.",
   "main": "lineach.js",
-  "scripts": {},
+  "scripts": {
+    "lineach": "node run.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mskz-3110/lineach.git"
   },
   "keywords": [
     "string",
-    "line"
+    "line",
+    "each"
   ],
   "author": "mskz-3110",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mskz-3110/lineach/issues"
   },
-  "homepage": "https://github.com/mskz-3110/lineach#readme"
+  "homepage": "https://github.com/mskz-3110/lineach#readme",
+  "dependencies": {
+    "optpas": "^1.1.2"
+  }
 }
