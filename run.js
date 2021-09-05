@@ -5,8 +5,8 @@ select_parser.Add('e', "end", "// end", "End regex pattern.");
 
 var lineach = require("./lineach.js");
 var args = process.argv.slice(2);
-var type = args.shift();
-switch (type){
+var action = args.shift();
+switch (action){
 case "select":{
   var parsed = select_parser.Parse(args);
   lineach.ReadLines((lines) => {
@@ -26,7 +26,7 @@ ${select_parser.ToString("    ")}
 }break;
 
 default:{
-  console.log("Invalid type=" + type + " args=" + JSON.stringify(args));
+  console.log("Invalid action: " + action + " " + JSON.stringify(args));
   process.exit(1);
 }break;
 }
